@@ -72,7 +72,6 @@ jobs:
           - { os: macos-26        , ruby:  3.2  }
           - { os: macos-26        , ruby:  head }
           - { os: windows-2025    , ruby:  head }
-          - { os: windows-2022    , ruby:  '4.0' }
 
     steps:
       - name: repo checkout
